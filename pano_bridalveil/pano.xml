@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18007" id="node1" appversion="6.1.10">
+  <input levelingroll="0" width="2959" leveltilesize="510" height="2959" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level width="2959" height="2959" predecode="0" preload="0"/>
+    <level width="1479" height="1479" predecode="0" preload="0"/>
+    <level width="739" height="739" predecode="0" preload="0"/>
+    <level width="369" height="369" predecode="1" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="129">
+    <start fov="70" pan="0" tilt="0" projection="4"/>
+    <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max fov="120" fovstereographic="270" pan="360" fovfisheye="360" tilt="90" scaletofit="1"/>
+  </view>
+  <userdata title="" source="" copyright="" customnodeid="" description="" nodeid="node1" heading="129" info="" tags="Updated Panos" latitude="40.34026449" datetime="11/16/20 3:51 PM" author="" comment="" longitude="-111.60301101"/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label width="180" borderradius="1" wordwrap="1" enabled="1" height="20" backgroundcolor="0xffffff" background="1" textalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000"/>
+    <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>
+  </hotspots>
+  <media>
+    <sound loop="1" field="90.000" mode="1" ambientlevel="0.000" nodechangekeep="0" pan="-17.950" tilt="14.920" pansize="10.000" tiltsize="10.000" startmutedmobile="0" id="Element01" level="1.000">
+      <source url="media/Waterfall.mp3"/>
+    </sound>
+  </media>
+  <transition enabled="1" zoomout="0" type="crossdissolve" zoomin="0" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomafteroutfov="20" softedge="0" zoomfov="20" zoomspeed="2" zoomafterinfov="90"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" lockedwheel="0" sensitivity="8" rubberband="0"/>
+</panorama>
