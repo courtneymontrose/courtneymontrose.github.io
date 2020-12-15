@@ -24,7 +24,7 @@ header h2 {
 
 /*-----NAVigation -----*/
 nav {
-    background-color: #b89a7f; 
+    background-color: #d3c1b1; 
     position:relative; 
     height: 44px;
     width: 100%;
@@ -83,7 +83,7 @@ main iframe {margin: 0; padding: 0; width: 100%; height: 600px; border: none;}
 /*----- FOOTER -----*/
 footer {
     margin: 0;
-	background-color:#b89a7f;;
+	background-color:#d3c1b1;;
 	clear: both;
 	text-align: center;
 	padding: 1em;
