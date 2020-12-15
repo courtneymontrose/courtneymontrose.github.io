@@ -1,0 +1,25 @@
+@media only screen and (min-width: 960px) {
+	/*-----BODY -----*/
+	body {}
+
+	/*-----WRAPPER -----*/
+	#wrapper {}
+
+	/*-----CONTAINER -----*/
+	#container {
+		margin: 1em auto;
+		border: 1px solid #3e1e10;
+		box-shadow: 3px 3px 6px #333;
+	}
+
+	/*-----HEADER -----*/
+
+	/*-----NAVigation -----*/
+
+	/*-----CONTENT -----*/
+	#content {width: 83.333%;}
+	.contentStuff { padding: 16px 2.4% 16px 1.2%;}
+	/*----- FOOTER -----*/
+
+
+} 

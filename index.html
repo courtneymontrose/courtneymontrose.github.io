@@ -1,48 +1,52 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<link href="css/styles.css" rel="stylesheet">
-<title>Courtney Montrose: Home</title>
+<meta charset="utf-8">
+<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<title>Tour Shell Example</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+
 </head>
-
 <body>
-<header>
-  <h1>Courtney Montrose</h1>
-  <h2>DGM 3261 - Virtual Reality</h2>
 
-</header>
-
-<nav>
-<ul>
-  <li><a href="index.html">Home</a>  </li>
- 
-  <li><a href="pano_sharonpark/">Sharon Park</a>  </li>
-  <li><a href="frog_object/">VR Object</a>  </li>
-  <li><a href="#">Enhanced Book</a>  </li>
-  <li><a href="pano_bridalveil/">Bridal Veil Falls</a>  </li>
-  <li><a href="pano_nunnspark/">Nunn's Park</a>  </li>
-  <li><a href="pano_deercreek/">Deer Creek</a>  </li>
-  <li><a href="pano_canyonglen/">Canyon Glen Park</a>  </li>
-  <li><a href="canyon_object/">Canyon Object</a>  </li>
-  <li><a href="tour_inn/">Camp Floyd Stagecoach Inn</a>  </li>
-</ul>
-</nav>
-
-<main>
-<h1>Home</h1>
-<img src="images/SharonPark_Panorama2.jpg" alt="Panorama of Sharon Park">
-<p>Here are some of the virtual reality (VR) projects I have created.</p>
-<ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ol>
-</main>
-
+<!-- PAGE HEADER GOES HERE -->
+    <header class="clearfix">
+        <img src="images/logo.png" alt="logo" >
+        <h1>Project Name</h1>
+        <h2>City, State</h2>
+    </header>
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="cover.html" target="panoPlace" >Home</a></li>
+            <li><a href="node01/index.html" target="panoPlace" >Node 1</a></li>  
+        </ul>
+    </nav>
+    
+    
+<!-- PAGE CONTENT GOES HERE -->
+    <main class="clearfix">
+       <iframe name="panoPlace" src ="cover.html"  frameborder="0" scrolling="no"></iframe>
+    </main>
+    
+<!-- PAGE FOOTER GOES HERE -->
 <footer>
-&copy; Courtney Montrose 2020
-</footer>
+    <p>&copy; Your Name Here &bull; 1-801-555-1234 </p>
+    </footer>
 
+    <script src="js/scripts.js"></script>
 </body>
 </html>
